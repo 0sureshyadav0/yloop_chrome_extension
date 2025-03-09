@@ -1,17 +1,25 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  width: 200px;
+  width: 250px;
   padding: 0px;
   display: flex;
   gap: 2rem;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: black;
   color: white;
 }
 h2 {
   font-family: "Playfair Display";
+}
+#logoName {
+  width: 120px;
+
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
 }
 p {
   padding: 8px;
